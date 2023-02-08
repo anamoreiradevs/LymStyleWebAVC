@@ -1,0 +1,54 @@
+﻿@using LymStyleWebAPPAPI.Domain.DTO;
+@model LymStyleWebAPPAPI.Domain.DTO.AccountDTO
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login.css" true" />
+</head>
+<body>
+    <form asp-action="ValidLogin" method="Post">
+        <div class="box">
+            <div class="container">
+                <div class="top">
+                    <header>Login</header>
+                </div>
+                <div class="input-field">
+                    <input type="text" asp-for="email" class="input" placeholder="Email" />
+                    <i class='bx bx-user'></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" asp-for="password" class="input" placeholder="Password"/>
+                    <i class='bx bx-lock-alt'></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="submit" class="submit" value="Login" id="">
+                </div>
+            </div>
+        </div>
+        @{
+            if (TempData["Incorrect Login"] != null)
+            {
+
+                <div class="alert alert-danger" role="alert">
+                    @TempData["Incorrect Login"]
+                </div>
+            }
+        }
+    </form>
+</body>
+</html>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

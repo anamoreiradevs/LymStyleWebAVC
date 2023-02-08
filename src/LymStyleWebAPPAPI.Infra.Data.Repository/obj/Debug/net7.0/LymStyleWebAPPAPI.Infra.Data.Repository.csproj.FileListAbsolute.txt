@@ -1,0 +1,17 @@
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\bin\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.deps.json
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\bin\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.runtimeconfig.json
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\bin\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.dll
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\bin\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.pdb
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\bin\Debug\net7.0\LymStyleWebAPPAPI.Domain.dll
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\bin\Debug\net7.0\LymStyleWebAPPAPI.Domain.pdb
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.csproj.AssemblyReference.cache
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.AssemblyInfoInputs.cache
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.AssemblyInfo.cs
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.csproj.CoreCompileInputs.cache
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.csproj.CopyComplete
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.dll
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\refint\LymStyleWebAPPAPI.Infra.Data.Repository.dll
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.pdb
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\LymStyleWebAPPAPI.Infra.Data.Repository.genruntimeconfig.cache
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Infra.Data.Repository\obj\Debug\net7.0\ref\LymStyleWebAPPAPI.Infra.Data.Repository.dll

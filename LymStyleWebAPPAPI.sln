@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LymStyleWebAPPAPI.WebMVC", "src\LymStyleWebAPPAPI.WebMVC\LymStyleWebAPPAPI.WebMVC.csproj", "{3FEF57FA-2B2F-4686-8671-9615C7230A7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LymStyleWebAPPAPI.Application.Service", "src\LymStyleWebAPPAPI.Application.Service\LymStyleWebAPPAPI.Application.Service.csproj", "{4123B380-0443-4D4E-8C1F-1F4E78B21A67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LymStyleWebAPPAPI.Infra.Data.Repository", "src\LymStyleWebAPPAPI.Infra.Data.Repository\LymStyleWebAPPAPI.Infra.Data.Repository.csproj", "{1CEA59BC-2290-4385-B7DF-AB02BFD66730}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LymStyleWebAPPAPI.Domain", "src\LymStyleWebAPPAPI.Domain\LymStyleWebAPPAPI.Domain.csproj", "{E0EF388D-440F-44B1-A262-954ACA01AFE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FEF57FA-2B2F-4686-8671-9615C7230A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEF57FA-2B2F-4686-8671-9615C7230A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEF57FA-2B2F-4686-8671-9615C7230A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEF57FA-2B2F-4686-8671-9615C7230A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4123B380-0443-4D4E-8C1F-1F4E78B21A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4123B380-0443-4D4E-8C1F-1F4E78B21A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4123B380-0443-4D4E-8C1F-1F4E78B21A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4123B380-0443-4D4E-8C1F-1F4E78B21A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CEA59BC-2290-4385-B7DF-AB02BFD66730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CEA59BC-2290-4385-B7DF-AB02BFD66730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CEA59BC-2290-4385-B7DF-AB02BFD66730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CEA59BC-2290-4385-B7DF-AB02BFD66730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EF388D-440F-44B1-A262-954ACA01AFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EF388D-440F-44B1-A262-954ACA01AFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EF388D-440F-44B1-A262-954ACA01AFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EF388D-440F-44B1-A262-954ACA01AFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEC20E8A-193F-4728-A799-4764C97D53DB}
+	EndGlobalSection
+EndGlobal

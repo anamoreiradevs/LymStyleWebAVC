@@ -1,0 +1,14 @@
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\bin\Debug\net7.0\LymStyleWebAPPAPI.Domain.deps.json
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\bin\Debug\net7.0\LymStyleWebAPPAPI.Domain.runtimeconfig.json
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\bin\Debug\net7.0\LymStyleWebAPPAPI.Domain.dll
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\bin\Debug\net7.0\LymStyleWebAPPAPI.Domain.pdb
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\LymStyleWebAPPAPI.Domain.csproj.AssemblyReference.cache
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\LymStyleWebAPPAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\LymStyleWebAPPAPI.Domain.AssemblyInfoInputs.cache
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\LymStyleWebAPPAPI.Domain.AssemblyInfo.cs
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\LymStyleWebAPPAPI.Domain.csproj.CoreCompileInputs.cache
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\LymStyleWebAPPAPI.Domain.dll
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\refint\LymStyleWebAPPAPI.Domain.dll
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\LymStyleWebAPPAPI.Domain.pdb
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\LymStyleWebAPPAPI.Domain.genruntimeconfig.cache
+D:\Devs2Blu.CSharp\aspnetcore\LymStyleWebAPPAPI\src\LymStyleWebAPPAPI.Domain\obj\Debug\net7.0\ref\LymStyleWebAPPAPI.Domain.dll

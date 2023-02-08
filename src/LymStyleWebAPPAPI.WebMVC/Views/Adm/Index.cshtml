@@ -1,0 +1,299 @@
+﻿@model LymStyleWebAPPAPI.WebMVC.Models.AdmViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+}
+<div id="content-wrapper" class="d-flex flex-column">
+    <div id="content">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown no-arrow mx-1">
+                </li>
+                <div class="topbar-divider d-none d-sm-block"></div>
+                <li class="nav-item dropdown no-arrow">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                </li>
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="row">
+
+        <div class="col-xl-6 col-lg-7">
+            <div class="card shadow mb-6">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">User</h6>
+                    <div class="dropdown no-arrow">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                             aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-header">Actions:</div>
+                            <a class="dropdown-item" asp-controller="Account" asp-action="Create">New User</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @foreach (var item in Model.user)
+                    {
+                        <div class="card-body">
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-primary"></h6>
+                                <div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                     aria-labelledby="dropdownMenuLink">
+                                        <div class="dropdown-header">Actions:</div>
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="ImagePost" asp-route-id="@item.id">Image </a>
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.id)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.name)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.email)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.image)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.id)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.name)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.email)
+                                        </td>
+                                        <td>
+                                            <figure class="col-md-4">
+                                                <img src="~/UserUploads/@item.image" style="width: 80px;" />
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-7">
+            <div class="card shadow mb-6">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Categories</h6>
+                    <div class="dropdown no-arrow">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                             aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-header">Actions:</div>
+                            <a class="dropdown-item" asp-controller="Category" asp-action="Create">New Category</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @foreach (var item in Model.category)
+                    {
+                        <div class="card-body">
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-primary"></h6>
+                                <div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                     aria-labelledby="dropdownMenuLink">
+                                        <div class="dropdown-header">Actions:</div>
+                                        <a class="dropdown-item" asp-controller="Category" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                                        <a class="dropdown-item" href="#" onclick="deleteCategory(@item.id)">Delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.id)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.name)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.id)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.name)
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <div class="col-xl-12 col-lg-7">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Products</h6>
+                    <div class="dropdown no-arrow">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                             aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-header">Actions:</div>
+                            <a class="dropdown-item" asp-controller="Product" asp-action="Create">New Product</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-body">
+                        @foreach (var item in Model.product)
+                        {
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                     aria-labelledby="dropdownMenuLink">
+                                        <div class="dropdown-header">Actions:</div>
+                                        <a class="dropdown-item" asp-controller="Product" asp-action="ImagePost" asp-route-id="@item.id">Image </a>
+                                        <a class="dropdown-item" asp-controller="Product" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                                        <a class="dropdown-item" href="#" onclick="deleteProduct(@item.id)">Delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.id)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.name)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.description)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.price)
+                                        </th>
+
+                                        <th>
+                                            @Html.DisplayNameFor(model => item.image)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.id)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.name)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.description)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.price)
+                                        </td>
+
+                                        <td>
+                                            <figure class="col-md-4">
+                                                <img src="~/Uploads/@item.image" style="width: 80px;" />
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script>
+            const deleteCategory = (idParam) => {
+                msgModalMessage(`Do you really want to delete this item?`, () => {
+                    $.ajax({
+                        url: '@Url.Action("Delete", "Category")',
+                        method: 'POST',
+                        data: {
+                            id: idParam
+                        },
+                        success: (resp) => {
+                            if (resp.code == '200') {
+                                liveToastMessage(`The item has been deleted.`);
+                                setTimeout(() => { window.location.reload(); }, 4000);
+                            }
+                        }
+                    });
+                    closeMsgModalMessage();
+                });
+            }
+        </script>
+
+
+
+        <script>
+            const deleteProduct = (idParam) => {
+                msgModalMessage(`Do you really want to delete this item?`, () => {
+                    $.ajax({
+                        url: '@Url.Action("Delete")',
+                        method: 'POST',
+                        data: {
+                            id: idParam
+                        },
+                        success: (resp) => {
+                            if (resp.code == '200') {
+                                liveToastMessage(`The item has been deleted.`);
+                                setTimeout(() => { window.location.reload(); }, 4000);
+                            }
+                        }
+                    });
+                    closeMsgModalMessage();
+                });
+            }
+        </script>
+    }
+

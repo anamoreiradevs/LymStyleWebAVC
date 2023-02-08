@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Application.Service\\LymStyleWebAPPAPI.Application.Service.csproj": {}
+  },
+  "projects": {
+    "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Application.Service\\LymStyleWebAPPAPI.Application.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Application.Service\\LymStyleWebAPPAPI.Application.Service.csproj",
+        "projectName": "LymStyleWebAPPAPI.Application.Service",
+        "projectPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Application.Service\\LymStyleWebAPPAPI.Application.Service.csproj",
+        "packagesPath": "C:\\Users\\analy\\.nuget\\packages\\",
+        "outputPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Application.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\analy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Domain\\LymStyleWebAPPAPI.Domain.csproj": {
+                "projectPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Domain\\LymStyleWebAPPAPI.Domain.csproj"
+              },
+              "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Infra.Data.Repository\\LymStyleWebAPPAPI.Infra.Data.Repository.csproj": {
+                "projectPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Infra.Data.Repository\\LymStyleWebAPPAPI.Infra.Data.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Domain\\LymStyleWebAPPAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Domain\\LymStyleWebAPPAPI.Domain.csproj",
+        "projectName": "LymStyleWebAPPAPI.Domain",
+        "projectPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Domain\\LymStyleWebAPPAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\analy\\.nuget\\packages\\",
+        "outputPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\analy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Infra.Data.Repository\\LymStyleWebAPPAPI.Infra.Data.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Infra.Data.Repository\\LymStyleWebAPPAPI.Infra.Data.Repository.csproj",
+        "projectName": "LymStyleWebAPPAPI.Infra.Data.Repository",
+        "projectPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Infra.Data.Repository\\LymStyleWebAPPAPI.Infra.Data.Repository.csproj",
+        "packagesPath": "C:\\Users\\analy\\.nuget\\packages\\",
+        "outputPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Infra.Data.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\analy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Domain\\LymStyleWebAPPAPI.Domain.csproj": {
+                "projectPath": "D:\\Devs2Blu.CSharp\\aspnetcore\\LymStyleWebAPPAPI\\src\\LymStyleWebAPPAPI.Domain\\LymStyleWebAPPAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

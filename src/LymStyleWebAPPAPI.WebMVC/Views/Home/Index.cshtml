@@ -1,0 +1,24 @@
+﻿@model LymStyleWebAPPAPI.WebMVC.Models.AdmViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (var item in Model.product)
+{
+    <div class="in-box">
+        <img src="~/Uploads/@item.image" />
+        <div class="in-content">
+            <h2>@item.name</h2>
+            <div class="size">
+                <h5>Description</h5>
+                @item.description
+            </div>
+            <br></br>
+            <h5>Price</h5>
+            <div class="size">$@item.price</div>
+        </div>
+    </div>
+}
+
+
